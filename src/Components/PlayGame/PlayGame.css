@@ -1,0 +1,95 @@
+.play-container{
+    width: 80%;
+    margin: 2% auto;
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+.play-left{
+
+}
+.play-left h1{
+    font-size: 50px;
+    
+}
+.play-right h3{
+   text-align: end;
+   margin: 15px 0 0 0;
+   font-weight: bold;
+}
+.play-right .white{
+   margin: 0 5px;
+   padding: 13px 15px;
+   font-weight: bold;
+   font-size: 15px;
+}
+.black{
+    background-color: black;
+    color: white;
+    margin: 0 5px;
+    padding: 13px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.center-container{
+  text-align: center;
+  margin-top: 5%;
+  
+}
+.center-container h4 {
+    margin: 15px 0;
+}
+.btn-reset{
+    width: 130px;
+    padding: 6px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn-rules{
+    margin: 15px 0;
+    width: 130px;
+    padding: 6px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.error-msg{
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.btn-reset:active{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn-rules:active{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.Hide{
+    display: none;
+}
+.Show{
+    background-color: rgb(239, 201, 151);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+  
+}
