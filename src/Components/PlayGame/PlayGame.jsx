@@ -84,7 +84,7 @@ const PlayGame = () => {
            className='btn-rules'>Show Rules</button>
         </div>
 
-        <div className={showRule ? "Hide":"Show"}>
+        <div className={showRule ? "Show":"Hide"}>
         <h2>How to play dice game</h2>
         <p>Select any number</p>
         <p>Click on dice image</p>
